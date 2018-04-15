@@ -27,7 +27,7 @@ header h2 {
 	letter-spacing: 2px;
 }
 
-h2, p, li {
+h2, p, li, figcaption {
 	font-family: 'Tajawal', sans-serif;
 }
 
@@ -57,7 +57,18 @@ article h2 {
 	border-radius: 20px;
 }
 
+.examples-gallery {
+	display: flex;
+	align-items: center;
+}
+
 #examples img {
 	width: 100px;
 	height: auto;
+	padding: 10px;
+}
+
+figcaption {
+	text-align: center;
+	font-size: 0.7em;
 }
