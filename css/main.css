@@ -8,9 +8,10 @@ header {
 	padding-bottom: 10px;
 	line-height: 50%;
 	border: solid white 5px;
-	width: 50%;
-	margin: 20px;
-
+	width: 70%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 header h1{
@@ -30,6 +31,21 @@ h2, p {
 	font-family: 'Tajawal', sans-serif;
 }
 
+main {
+	padding: 20px;
+}
+
 article {
 	background-color: white;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border-bottom: dashed 1px #347b98;
+	padding: 0.5em;
+}
+
+article h2 {
+	background-color: #dd390d;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	color: white;
 }
