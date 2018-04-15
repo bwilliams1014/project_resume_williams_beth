@@ -75,6 +75,8 @@ figure {
 	height: 220px;
 	border: solid black 1px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #303030;
+    border-radius: 5px;
 }
 
 figcaption {
@@ -83,4 +85,5 @@ figcaption {
 	width: 100px;
 	padding-left: 10px;
 	padding-right: 10px;
+	color: white;
 }
