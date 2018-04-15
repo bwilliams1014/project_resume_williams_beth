@@ -49,3 +49,11 @@ article h2 {
 	border-bottom-right-radius: 5px;
 	color: white;
 }
+
+#about img {
+	width: 100px;
+	height: auto;
+	float: left;
+	padding: 8px;
+	border-radius: 20px;
+}
