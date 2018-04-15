@@ -31,6 +31,23 @@ h2, p, li, figcaption {
 	font-family: 'Tajawal', sans-serif;
 }
 
+.flexcontainer {
+	display: flex;
+
+	margin-bottom: 0;
+}
+
+.flexcontainer p {
+	text-align: center;
+	width: calc(100% / 6);
+	background-color: #303030;
+	color: white;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	margin: 1px;
+	padding: 3px;
+}
+
 
 article {
 	background-color: white;
@@ -41,12 +58,13 @@ article {
 }
 
 article h2 {
-	background-color: #dd390d;
+	background: linear-gradient(#dd390d, #912608);
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	color: white;
 	width: 50%;
 	margin-left: -10px;
+	padding: 3px 3px 3px 8px;	
 }
 
 #about img {
@@ -56,6 +74,7 @@ article h2 {
 	padding: 8px;
 	border-radius: 20px;
 }
+
 
 .examples-gallery {
 	display: flex;
@@ -86,4 +105,17 @@ figcaption {
 	padding-left: 10px;
 	padding-right: 10px;
 	color: white;
+}
+
+@media (min-width: 400px) {
+	#wrapper {
+		width: 85%;
+		margin: auto;
+	}
+}
+
+@media (min-width: 650px) {
+	article h2 {
+		width: 35%;
+	}
 }

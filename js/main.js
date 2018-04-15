@@ -8,5 +8,5 @@ $(document).ready(function() {
 		$(this).css({'cursor':'pointer'});
 	});
 
-
+	$('.smoothscroll').smoothScroll();
 });
