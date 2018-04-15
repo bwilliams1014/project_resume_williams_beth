@@ -31,16 +31,13 @@ h2, p, li {
 	font-family: 'Tajawal', sans-serif;
 }
 
-main {
-	padding: 20px;
-}
 
 article {
 	background-color: white;
 	box-sizing: border-box;
 	border-radius: 5px;
 	border-bottom: dashed 1px #347b98;
-	padding: 0.5em;
+	padding: 10px;
 }
 
 article h2 {
@@ -48,6 +45,8 @@ article h2 {
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	color: white;
+	width: 50%;
+	margin-left: -10px;
 }
 
 #about img {
@@ -56,4 +55,9 @@ article h2 {
 	float: left;
 	padding: 8px;
 	border-radius: 20px;
+}
+
+#examples img {
+	width: 100px;
+	height: auto;
 }
