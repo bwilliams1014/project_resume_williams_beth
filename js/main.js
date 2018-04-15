@@ -4,5 +4,9 @@ $(document).ready(function() {
 	// Options will go here
 	});
 
+	$('figure').mouseover(function() {
+		$(this).css({'cursor':'pointer'});
+	});
+
 
 });

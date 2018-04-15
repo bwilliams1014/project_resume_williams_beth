@@ -59,6 +59,7 @@ article h2 {
 
 .examples-gallery {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 }
 
@@ -68,7 +69,18 @@ article h2 {
 	padding: 10px;
 }
 
+figure {
+	margin: auto;
+	margin-bottom: 20px;
+	height: 220px;
+	border: solid black 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 figcaption {
 	text-align: center;
 	font-size: 0.7em;
+	width: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
