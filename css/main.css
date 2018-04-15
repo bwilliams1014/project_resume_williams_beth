@@ -1,7 +1,35 @@
 body {
-	background-color: #128F9A
+	background-color: #347b98;
+}
+
+header {
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 50%;
+	border: solid white 5px;
+	width: 50%;
+	margin: 20px;
+
+}
+
+header h1{
+	color: white;
+	font-family: 'Tajawal', sans-serif;
+	text-align: center;
+}
+
+header h2 {
+	color: white;
+	font-family: 'Shadows Into Light Two', cursive;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+h2, p {
+	font-family: 'Tajawal', sans-serif;
 }
 
 article {
-	background-clip: white;
+	background-color: white;
 }
