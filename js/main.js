@@ -1,16 +1,14 @@
 $(document).ready(function() {
 
-	$('[data-fancybox="imgList"]').fancybox({
-	// Options will go here
-	});
+	$('[data-fancybox="imgList"]').fancybox();
 
 	$('figure').mouseover(function() {
 		$(this).css({'cursor':'pointer'});
 	});
 
-	$('.smoothscroll').smoothScroll();
+	$('.smoothscroll').smoothScroll({'offset':'40'});
 
-	 $('nav').sticky({topSpacing:0})
+	 $('nav').sticky({topSpacing:0});
 
 
 });
