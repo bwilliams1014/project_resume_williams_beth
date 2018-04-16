@@ -26,9 +26,7 @@ $('nav').sticky({topSpacing:0});
 
 // add animation to header
 var headerWidth = $('header').width();
-console.log(headerWidth);
 var stop = headerWidth - 160;
-console.log(stop);
 
 $('header').mouseover(function() {
 	$('#myLogo').animate({left : stop}, 3000);
