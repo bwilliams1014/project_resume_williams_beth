@@ -14,10 +14,12 @@ $('.smoothscroll').mouseleave(function() {
 	$(this).css({'background':'#303030'});
 });
 
-
 $('.smoothscroll').smoothScroll({'offset':'40'});
 
 $('nav').sticky({topSpacing:0});
 
+$('header').mouseover(function() {
+	$('#myLogo').animate({'left': '40%'},'slow');
+});
 
 });
