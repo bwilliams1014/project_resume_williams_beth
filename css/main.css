@@ -58,16 +58,19 @@ article {
 	border-radius: 10px;
 	border-bottom: dashed 1px #d9d9d9;
 	padding: 10px;
-	overflow: auto;
+	overflow: hidden;
 }
 
 .section-head {
 	display: flex;
+	margin-left: -10px;
 }
 
 .section-head img {
 	width: 75px;
 	height: 75px;
+	position: relative;
+	left: -70%;
 }
 
 article:last-child {
@@ -80,17 +83,19 @@ article h2 {
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	color: white;
-	width: 50%;
-	padding: 3px 3px 3px 8px;
+	width: 70%;
+	padding: 3px 15px 3px 15px;
+	text-align: right;
+
 }
 
 
-#about img {
-	width: 100px;
+#myImage {
+	width:100px;
 	height: auto;
-	float: left;
 	padding: 8px;
 	border-radius: 20px;
+	float:right;
 }
 
 .examples-gallery {
