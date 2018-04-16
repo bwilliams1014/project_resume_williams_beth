@@ -6,6 +6,10 @@ h1, h2, p, li, figcaption {
 	font-family: 'Tajawal', sans-serif;
 }
 
+h3 {
+	display: none;
+}
+
 /*** header ***/
 header {
 	background: #419bbe;
@@ -24,7 +28,7 @@ header {
 	position: relative;
 }
 
-#myLogo h1, #myLogo h2{
+#myLogo h1, #myLogo p {
 	color: white;
 	line-height: 1;
 	text-align: center;
@@ -33,9 +37,10 @@ header {
 
 #myLogo h1 {
 	font-size: 24px;
+	margin-bottom: 5px;
 }
 
-#myLogo h2 {
+#myLogo p {
 	font-family: 'Shadows Into Light Two', cursive;
 	letter-spacing: 2px;
 	font-size: 18px;
