@@ -1,14 +1,23 @@
 $(document).ready(function() {
 
-	$('[data-fancybox="imgList"]').fancybox();
+$('[data-fancybox="imgList"]').fancybox();
 
-	$('figure').mouseover(function() {
-		$(this).css({'cursor':'pointer'});
-	});
+$('figure').mouseover(function() {
+	$(this).css({'cursor':'pointer'});
+});
 
-	$('.smoothscroll').smoothScroll({'offset':'40'});
+$('a').mouseover(function() {
+	$(this).css({'background':'linear-gradient(#dd390d, #912608)'});
+});
 
-	 $('nav').sticky({topSpacing:0});
+$('a').mouseleave(function() {
+	$(this).css({'background':'#303030'});
+});
+
+
+$('.smoothscroll').smoothScroll({'offset':'40'});
+
+$('nav').sticky({topSpacing:0});
 
 
 });
