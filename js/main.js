@@ -6,11 +6,11 @@ $('figure').mouseover(function() {
 	$(this).css({'cursor':'pointer'});
 });
 
-$('a').mouseover(function() {
+$('.smoothscroll').mouseover(function() {
 	$(this).css({'background':'linear-gradient(#dd390d, #912608)'});
 });
 
-$('a').mouseleave(function() {
+$('.smoothscroll').mouseleave(function() {
 	$(this).css({'background':'#303030'});
 });
 
