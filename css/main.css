@@ -32,6 +32,10 @@ h2, p, li, figcaption {
 	font-family: 'Tajawal', sans-serif;
 }
 
+nav {
+	background: white;
+}
+
 .flexcontainer {
 	display: flex;
 	margin-bottom: 0;
@@ -56,6 +60,19 @@ h2, p, li, figcaption {
 .flexcontainer a {
 	color: white;
 	text-decoration: none;
+}
+
+.flexcontainer img {
+	width: 50%;
+	height: auto;
+	padding: 3px;
+}
+
+
+
+.sticky {
+	position: fixed;
+	top: 0;
 }
 
 article {
@@ -123,31 +140,70 @@ figcaption {
 		margin: auto;
 	}
 
-	.flexcontainer {
-	display: flex;
-	margin-bottom: 0;
-	}
-
-	.flexcontainer p {
-		font-size: 0.7rem;
-		text-align: center;
-		width: calc(100% / 6);
-		background-color: #303030;
-		color: white;
-		border-top-right-radius: 5px;
-		border-top-left-radius: 5px;
-		margin: 1px;
-		padding: 3px;
-	}
-
-	.flexcontainer a {
-		color: white;
-		text-decoration: none;
-	}
 }
 
 @media (min-width: 650px) {
 	article h2 {
 		width: 35%;
 	}
+
+	.flexcontainer {
+	display: block;
+	}
+
+	.flexcontainer p {
+		box-sizing: border-box;
+		text-align: center;
+		background-color: #303030;
+		color: white;
+		border-top-right-radius: 0;
+		border-bottom-left-radius: 5px;
+		border-top-left-radius: 5px;
+		margin: 1px;
+		padding: 3px;
+		position: absolute;
+		right: -80px;
+		width: 100px;
+		transition: 0.3s;
+	}
+
+	.flexcontainer p:hover {
+		background: linear-gradient(#dd390d, #912608);
+		right: 0;
+	}
+
+	.flexcontainer a {
+		color: white;
+		text-decoration: none;
+	}
+
+	#about-link {
+		top: 20px;
+	}
+
+	#skills-link {
+		top: 50px;
+	}
+
+	#education-link {
+		top: 80px;
+	}
+
+	#examples-link {
+		top: 110px;
+	}
+
+	#employment-link {
+		top: 140px;
+	}
+	#contact-link {
+		top: 170px;
+	}
+
+
+	.sticky {
+		position: fixed;
+		top: 0;
+	}
+
 }

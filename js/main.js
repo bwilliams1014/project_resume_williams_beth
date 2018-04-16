@@ -10,10 +10,7 @@ $(document).ready(function() {
 
 	$('.smoothscroll').smoothScroll();
 
-//	$('.flexcontainer p').hover(function() {
-//		$(this).css({'background-color':'red'});
-//	});
-
+	 $('nav').sticky({topSpacing:0})
 
 
 });
