@@ -6,6 +6,7 @@ h1, h2, p, li, figcaption {
 	font-family: 'Tajawal', sans-serif;
 }
 
+/*** header ***/
 header {
 	background: #419bbe;
 	padding: 5px;
@@ -41,6 +42,7 @@ header {
 	margin-bottom: 0;
 }
 
+/*** navigation ***/
 nav {
 	background: white;
 	padding: 2px 0 2px 0;
@@ -69,6 +71,8 @@ nav {
 	margin: 1px;
 	padding: 3px;
 }
+
+/*** styling for articles ***/
 
 article {
 	background-color: white;
@@ -105,10 +109,9 @@ article h2 {
 	width: 70%;
 	padding: 3px 15px 3px 15px;
 	text-align: right;
-
 }
 
-
+/*** style images within articles ***/
 #myImage {
 	width:100px;
 	height: auto;
@@ -148,7 +151,6 @@ figcaption {
 	color: white;
 }
 
-
 .icons {
 	width: 30px;
 	height: auto;
@@ -157,6 +159,7 @@ figcaption {
 	margin-top: -5px;
 }
 
+/*** styling for contact section ***/
 #contact p {
 	margin-left: 35px;
 }
@@ -165,18 +168,17 @@ figcaption {
 	text-decoration: none;
 }
 
-
+/*** media query 400px adjust wrapper width ***/
 @media (min-width: 400px) {
 	#wrapper {
 		width: 85%;
 		margin: auto;
 	}
-
 }
 
+/*** media query 650px adjust wrapper width ***/
 @media (min-width: 650px) {
 	#wrapper {
 		width: 70%;
 	}
-
 }
