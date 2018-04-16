@@ -8,11 +8,10 @@ header {
 	padding-bottom: 10px;
 	line-height: 50%;
 	outline: solid white 5px;
-
 	margin: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	background-color: #347b98;
+	background: linear-gradient(#347b98, #419bbe, #347b98);
 	outline-offset: -10px;
 }
 
@@ -39,8 +38,9 @@ h2, p, li, figcaption {
 }
 
 .flexcontainer p {
+	box-sizing: border-box;
 	text-align: center;
-	width: calc(100% / 6);
+	width: calc(100% / 3);
 	background-color: #303030;
 	color: white;
 	border-top-right-radius: 5px;
@@ -49,12 +49,14 @@ h2, p, li, figcaption {
 	padding: 3px;
 }
 
+.flexcontainer p:hover {
+	background: linear-gradient(#dd390d, #912608);
+}
+
 .flexcontainer a {
 	color: white;
 	text-decoration: none;
 }
-
-
 
 article {
 	background-color: white;
@@ -71,7 +73,8 @@ article h2 {
 	color: white;
 	width: 50%;
 	margin-left: -10px;
-	padding: 3px 3px 3px 8px;	
+	padding: 3px 3px 3px 8px;
+	font-size: 1.3rem;
 }
 
 #about img {
@@ -118,6 +121,28 @@ figcaption {
 	#wrapper {
 		width: 85%;
 		margin: auto;
+	}
+
+	.flexcontainer {
+	display: flex;
+	margin-bottom: 0;
+	}
+
+	.flexcontainer p {
+		font-size: 0.7rem;
+		text-align: center;
+		width: calc(100% / 6);
+		background-color: #303030;
+		color: white;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+		margin: 1px;
+		padding: 3px;
+	}
+
+	.flexcontainer a {
+		color: white;
+		text-decoration: none;
 	}
 }
 

@@ -9,4 +9,11 @@ $(document).ready(function() {
 	});
 
 	$('.smoothscroll').smoothScroll();
+
+//	$('.flexcontainer p').hover(function() {
+//		$(this).css({'background-color':'red'});
+//	});
+
+
+
 });
