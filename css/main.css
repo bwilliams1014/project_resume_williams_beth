@@ -1,5 +1,5 @@
 body {
-	background-color: #347b98;
+	background-color: #d9d9d9;
 }
 
 header {
@@ -7,11 +7,13 @@ header {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	line-height: 50%;
-	border: solid white 5px;
-	width: 70%;
+	outline: solid white 5px;
+
 	margin: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	background-color: #347b98;
+	outline-offset: -10px;
 }
 
 header h1{
@@ -33,7 +35,6 @@ h2, p, li, figcaption {
 
 .flexcontainer {
 	display: flex;
-
 	margin-bottom: 0;
 }
 
@@ -48,12 +49,18 @@ h2, p, li, figcaption {
 	padding: 3px;
 }
 
+.flexcontainer a {
+	color: white;
+	text-decoration: none;
+}
+
+
 
 article {
 	background-color: white;
 	box-sizing: border-box;
 	border-radius: 5px;
-	border-bottom: dashed 1px #347b98;
+	border-bottom: dashed 1px #d9d9d9;
 	padding: 10px;
 }
 
