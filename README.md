@@ -3,6 +3,8 @@
 * 4/16/2018
 * [Github Repo link](https://github.com/bwilliams1014/project_resume_williams_beth.git)
 * [website](http://bethwilliams.org/resume/)
+* [HTML Validator](https://validator.w3.org/nu/?doc=http%3A%2F%2Fbethwilliams.org%2Fresume%2F)
+* [HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fbethwilliams.org%2Fresume%2F)
 
 ## Resources
 (include any links/descriptions to ANY third party code used or referenced in your project.)
